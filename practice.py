@@ -1,26 +1,112 @@
 # 1. Use a variable to store a number, then write a condition that prints 0 if the number is equal to 10, and prints -1 otherwise.
 
+# number = 10
+
+# if number == 10:
+#     print(0)
+# else:
+#     print(1)
+
 # 2. Use a variable to store a number, then write a condition that prints -1 if the number is less than 10, prints 1 if the number is greater than 10, and prints 0 if the number is equal to 10.
+
+# number = 11
+
+# if number < 10:
+#     print(-1)
+# elif number > 10:
+#     print(1)
+# elif number == 10:
+#     print(0)
 
 # 3. Use variables to store two numbers, then write a condition that prints 1 if the numbers are both less than 10, and prints 0 otherwise.
 
+# number1 = 99
+# number2 = 101
+
+# if number1 and number2 < 10:
+#     print(1)
+# else:
+#     print(0)
+
 # 4. Use a variable to store a number, then write a condition that prints 1 if the number is over 9000, and prints -1 otherwise.
+
+# number = 83
+
+# if number > 9000:
+#     print(1)
+# else:
+# print(-1)
 
 # 5. Use a variable to store a number, then write a condition that prints 9 if the number is less than 10, prints 19 if the number is less than 20, prints 29 if the number is less than 30, and prints -1 otherwise (only one print statement should occur).
 
+# number = 5
+
+# if number < 10:
+#     print(9)
+# elif number < 20:
+#     print(19)
+# elif number < 30:
+#     print(29)
+# else:
+#     print(-1)
+
 # 6. Use variables to store two numbers, then write a condition that prints 100 if either number is greater than 10, and prints -100 otherwise.
+
+# number1 = 3
+# number2 = 4
+
+# if number1 > 10 or number2 > 10:
+#     print(100)
+# else:
+#     print(-100)
 
 # 7. Use a variable to store a number, then write a condition that prints 1776 if the number is less than 0, and prints 1979 otherwise.
 
+
+# number = 6
+
+# if number < 0:
+#     print(1776)
+# else:
+#     print(1979)
+
 # 8. Use a variable to store a number, then write a condition that prints 100 if the number equals 100, prints 99 if the number is equal to 99, and prints 0 otherwise.
+
+# number = 100
+
+# if number == 100:
+#     print(100)
+# elif number == 99:
+#     print(99)
+# else:
+#     print(0)
 
 # 9. Use variables to store two numbers, then write a condition that prints 1 if the first number is less than zero and the second number is greater than 0, and prints 0 otherwise.
 
+# number1 = -1
+# number2 = 3
+
+# if number1 < 0 and number2 > 0:
+#     print(1)
+# else:
+#     print(0)
+
 # 10. Use a variable to store a number, then write a condition that prints 5 if the number is greater than 80, prints 4 if the number is greater than 60, prints 3 if the number is greater than 40, prints 2 if the number is greater than 20, and prints 1 otherwise (only one print statement should occur).
 
+# number = 88
+
+# if number > 80:
+#     print(5)
+# elif number > 60:
+#     print(4)
+# elif number > 40:
+#     print(3)
+# elif number > 20:
+#     print(2)
+# else:
+#     print(1)
 
 # SOLUTIONS: https://gist.github.com/peterxjang/aee70f966f0f725609eee89b06e8a6c0
-
 
 # 1. Write a program that uses variables to store a first and last name, then prints the full name in one line using string concatenation (the + operator).
 
@@ -42,9 +128,7 @@
 
 # 10. Write a program that uses variables to store the names of three cities, then prints out a sentence using that information with string concatenation (the + operator).
 
-
 # SOLUTIONS: https://gist.github.com/peterxjang/79ba5acc912a86cce2a18c2f14b1c712
-
 
 # 1. Write a program that asks the user to enter a word, then prints that word with all capital letters.
 
@@ -66,9 +150,7 @@
 
 # 10. Write a program that asks the user to enter a word, then prints "That's a long word" if the word has more than 5 letters.
 
-
 # SOLUTIONS: https://gist.github.com/peterxjang/1539a3ad79728ba4fb68dd8d07279c29
-
 
 # 1. Write a while loop to print the numbers 1 through 10.
 
@@ -90,9 +172,29 @@
 
 # 10. Write a while loop that prints the even numbers from 2 to 40.
 
-
 # SOLUTIONS: https://gist.github.com/peterxjang/c4ec0e0f8f6e123d65ada9bf3100068b
 
+# 1. Create an array to store 3 words. Then add two more words to the array and print the array on one line.
+
+# 2. Create an array to store 4 letters. Then change the second letter to a number and print the array on one line.
+
+# 3. Create an array to store 5 numbers. Then print out each number on separate lines with a while loop.
+
+# 4. Create an array to store 1 number. Then add three more numbers to the array and print the array on one line.
+
+# 5. Create an array to store 3 strings with lower case letters. Then change the third string to have all capital letters and print the array on one line.
+
+# 6. Create an array to store 3 names. Then print out each name on separate lines with a while loop.
+
+# 7. Create an array to store 2 strings. Then add one string to the array and print the array on one line.
+
+# 8. Create an array to store 5 numbers. Then change the first number to 10 times its original value and print the array on one line.
+
+# 9. Create an array to store 2 numbers. Then print out each number on separate lines with a while loop.
+
+# 10. Create an array to store names of 3 different countries. Then add one more country and print the array one line.
+
+# SOLUTIONS: https://gist.github.com/peterxjang/7095a2b19e1da2cc18d4a0dcd66cb8f1
 
 # 1. Create an array to store 3 words. Then add two more words to the array and print the array on one line.
 
@@ -114,33 +216,7 @@
 
 # 10. Create an array to store names of 3 different countries. Then add one more country and print the array one line.
 
-
 # SOLUTIONS: https://gist.github.com/peterxjang/7095a2b19e1da2cc18d4a0dcd66cb8f1
-
-
-# 1. Create an array to store 3 words. Then add two more words to the array and print the array on one line.
-
-# 2. Create an array to store 4 letters. Then change the second letter to a number and print the array on one line.
-
-# 3. Create an array to store 5 numbers. Then print out each number on separate lines with a while loop.
-
-# 4. Create an array to store 1 number. Then add three more numbers to the array and print the array on one line.
-
-# 5. Create an array to store 3 strings with lower case letters. Then change the third string to have all capital letters and print the array on one line.
-
-# 6. Create an array to store 3 names. Then print out each name on separate lines with a while loop.
-
-# 7. Create an array to store 2 strings. Then add one string to the array and print the array on one line.
-
-# 8. Create an array to store 5 numbers. Then change the first number to 10 times its original value and print the array on one line.
-
-# 9. Create an array to store 2 numbers. Then print out each number on separate lines with a while loop.
-
-# 10. Create an array to store names of 3 different countries. Then add one more country and print the array one line.
-
-
-# SOLUTIONS: https://gist.github.com/peterxjang/7095a2b19e1da2cc18d4a0dcd66cb8f1
-
 
 # 1. Write a function that takes in a number and returns the number times two. Then run the function and print the result.
 
@@ -162,9 +238,7 @@
 
 # 10. Write a function that takes in a number and returns the number times 10 plus 30. Then run the function and print the result.
 
-
 # SOLUTIONS: https://gist.github.com/peterxjang/6a26d3c698c651dd6e9ccb168d32648c
-
 
 #  1. Start with an array of numbers and create a new array with each number times 3.
 #     For example, [1, 2, 3] becomes [3, 6, 9].
@@ -196,11 +270,9 @@
 # 10. Start with an array of numbers and create a new array with each number converted into a string.
 #     For example, [1, 2, 3] becomes ["1", "2", "3"].
 
-
 # SOLUTIONS (using while loop): https://gist.github.com/peterxjang/b9ac4390aad2301a2238efc95c904f3d
 # SOLUTIONS (using .each shortcut): https://gist.github.com/peterxjang/66598fd7cdbc67fe663624e217cebbaf
 # SOLUTIONS (using .map shortcut): https://gist.github.com/peterxjang/23a8f8a51601e4288ba3a8aa6d1f1c98
-
 
 #  1. Start with an array of numbers and create a new array with only the numbers less than 20.
 #     For example, [2, 32, 80, 18, 12, 3] becomes [2, 18, 12, 3].
@@ -232,11 +304,9 @@
 # 10. Start with an array of numbers and create a new array with only the odd numbers.
 #     For example, [2, 4, 5, 1, 8, 9, 7] becomes [5, 1, 9, 7].
 
-
 # SOLUTIONS (using while loop): https://gist.github.com/peterxjang/7de16ed43ea506e98df3fa15074b84f8
 # SOLUTIONS (using .each shortcut): https://gist.github.com/peterxjang/a702894841c7018ed8c127b647ae21f8
 # SOLUTIONS (using .select shortcut): https://gist.github.com/peterxjang/b8c8fb8b77b2cae7bb9cc62a3a434761
-
 
 #  1. Start with an array of numbers and compute the sum of all the numbers.
 #     For example, [5, 10, 8, 3] becomes 26.
@@ -268,11 +338,9 @@
 # 10. Start with an array of numbers and compute the maximum number.
 #     For example, [5, 10, 8, 3] becomes 10.
 
-
 # SOLUTIONS (using while loop): https://gist.github.com/peterxjang/376c8931a48549889eb3c9bc091e9f43
 # SOLUTIONS (using .each shortcut): https://gist.github.com/peterxjang/379c9945774f51027750c59d6e4395df
 # SOLUTIONS (using .reduce shortcut): https://gist.github.com/peterxjang/b69183e2d555964ce3936893f423ef35
-
 
 #  1. Convert an array of arrays into a hash.
 #     For example, [[1, 3], [8, 9], [2, 16]] becomes {1 => 3, 8 => 9, 2 => 16}.
@@ -304,10 +372,7 @@
 # 10. Given a hash, create a new hash that has the keys and values switched.
 #     For example, {"a" => 1, "b" => 2, "c" => 3} becomes {1 => "a", 2 => "b", 3 => "c"}.
 
-
 # SOLUTIONS: https://gist.github.com/peterxjang/216a7a6e8411ee5c05118e78022f2bc7
-
-
 
 #  1. Use a nested loop to convert an array of number pairs into a single flattened array.
 #     For example, [[1, 3], [8, 9], [2, 16]] becomes [1, 3, 8, 9, 2, 16].
@@ -338,6 +403,5 @@
 
 # 10. Use a nested loop to convert an array of string arrays into a single string.
 #     For example, [["a", "man"], ["a", "plan"], ["a", "canal"], ["panama"]] becomes "amanaplanacanalpanama".
-
 
 # SOLUTIONS: https://gist.github.com/peterxjang/af8985dc4fb07ea14b4bd6ba41cb08f8
