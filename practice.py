@@ -257,23 +257,105 @@
 
 # 1. Write a while loop to print the numbers 1 through 10.
 
+# i = 1
+
+# while i <= 10:
+#     print(i)
+#     i += 1
+
+# i = 11
+
+# for num in range(1, i):
+#     print(num)
+
 # 2. Write a while loop that prints the word "hello" 5 times.
+
+# i = 0
+
+# while i < 5:
+#     print("hello")
+#     i += 1
+
+# i = 5
+
+# for num in range(1, i):
+#     print("hello")
 
 # 3. Write a while loop that asks the user to enter a word and will run forever until the user enters the word "stop".
 
+# while True:
+#     word = input("Please enter a word\n")
+#     if word == "stop":
+#         break
+
 # 4. Write a while loop that prints the numbers 0 through 100, increasing by 5 each time.
+
+# i = 0
+
+# while i <= 100:
+#     print(i)
+#     i += 5
+
+# i = 100
+
+# for num in range(0, i, 5):
+#     print(num)
 
 # 5. Write a while loop that prints the number 9000 ten times.
 
+# i = 0
+
+# while i < 10:
+#     print(9000)
+#     i += 1
+
+# i = 11
+
+# for num in range(1, i):
+#     print(9000)
+
 # 6. Write a while loop that asks the user to enter a number and will run forever until the user enters a number greater than 10.
+
+# while True:
+#     number = input("Please enter a number\n")
+#     if int(number) > 10:
+#         break
 
 # 7. Write a while loop that prints the numbers 50 to 70.
 
+# i = 50
+
+# while i <= 70:
+#     print(i)
+#     i += 1
+
 # 8. Write a while loop that prints the phrase "Around the world" 144 times.
+
+# i = 1
+
+# while i <= 144:
+#     print(i, "Around the world")
+#     i += 1
 
 # 9. Write a while loop that asks the user to enter a word and will run forever until the user enters a word with more than 5 letters.
 
+# while True:
+#     word = input("Please enter a word\n")
+#     if len(word) > 5:
+#         break
+
 # 10. Write a while loop that prints the even numbers from 2 to 40.
+
+# i = 2
+
+# while i <= 40:
+#     print(i)
+#     i += 2
+
+# i = 42
+
+# for num in range(2, i, 2):
+#     print(num)
 
 # SOLUTIONS: https://gist.github.com/peterxjang/c4ec0e0f8f6e123d65ada9bf3100068b
 
