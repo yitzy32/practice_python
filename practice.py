@@ -361,23 +361,76 @@
 
 # 1. Create an array to store 3 words. Then add two more words to the array and print the array on one line.
 
+# words = ["bear", "went", "over"]
+# words.append("the")
+# words.append("mountain")
+# print(words)
+
 # 2. Create an array to store 4 letters. Then change the second letter to a number and print the array on one line.
+
+# letters = ["a", "b", "c", "d"]
+# letters[1] = 2
+# print(letters)
 
 # 3. Create an array to store 5 numbers. Then print out each number on separate lines with a while loop.
 
+# numbers = [1, 2, 3, 4, 5]
+
+# i = 0
+# while i < len(numbers):
+#     print(numbers[i])
+#     i += 1
+
 # 4. Create an array to store 1 number. Then add three more numbers to the array and print the array on one line.
+
+# numbers = [1]
+# numbers.extend([2, 3, 4])
+# print(numbers)
 
 # 5. Create an array to store 3 strings with lower case letters. Then change the third string to have all capital letters and print the array on one line.
 
+# letters = ["apple", "pear", "peach"]
+# print(letters[2].upper())
+
 # 6. Create an array to store 3 names. Then print out each name on separate lines with a while loop.
+
+# names = ["Bill", "Joe", "Jay"]
+# i = 0
+# while i < len(names):
+#     print(names[i])
+#     i += 1
+
+# for name in names:
+#     print(name)
 
 # 7. Create an array to store 2 strings. Then add one string to the array and print the array on one line.
 
+# strings = ["It", "is"]
+# strings.append("night")
+# print(strings)
+
 # 8. Create an array to store 5 numbers. Then change the first number to 10 times its original value and print the array on one line.
+
+# numbers = [99, 98, 97, 96, 95]
+# numbers[0] *= 10
+# print(numbers)
 
 # 9. Create an array to store 2 numbers. Then print out each number on separate lines with a while loop.
 
+# numbers = [5, 999]
+
+# i = 0
+# while i < len(numbers):
+#     print(numbers[i])
+#     i += 1
+
+# for number in numbers:
+#     print(number)
 # 10. Create an array to store names of 3 different countries. Then add one more country and print the array one line.
+
+# countries = ["China", "India", "United States"]
+# countries.append("Indonesia")
+# print(countries)
 
 # SOLUTIONS: https://gist.github.com/peterxjang/7095a2b19e1da2cc18d4a0dcd66cb8f1
 
